@@ -12,6 +12,7 @@ html {
     --color-text: black;
     --color-headings: #0077FF;
     --bg-aside: #eee;
+    --color-h3-: rgb(139, 139, 139);
 
 }
 
@@ -29,7 +30,10 @@ html[data-theme='dark'] {
     
 }
 
-
+main{
+    background-color: var(--background);
+    color: var(--color-text)
+}
 
 * {
     padding: 0;
